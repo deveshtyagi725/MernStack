@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.form-container {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+    text-align: center;
+    width: 350px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.form-container h2 {
+    color: #00ffff;
+    margin-bottom: 0.5rem;
+}
+
+.form-container p {
+    color: #ccc;
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 1.2rem;
+}
+
+.input-group i {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    color: #00ffff;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 35px;
+    background: transparent;
+    border: 2px solid #00ffff;
+    border-radius: 8px;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus {
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.toggle-password {
+    right: 10px;
+    left: auto !important;
+    cursor: pointer;
+}
+
+.create-btn {
+    width: 100%;
+    padding: 10px;
+    background: #00ffff;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.create-btn:hover {
+    background: #33ffff;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+.links {
+    margin-top: 1rem;
+}
+
+.links a {
+    color: #00ffff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
