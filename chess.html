@@ -1,0 +1,78 @@
+<!-- a chessboard with character images using html and table tag use simple html and simple CSS -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chess Board with Pieces</title>
+  <meta charset="UTF-8">
+  <style>
+    .chess-board { border-collapse: collapse; margin: 20px auto; }
+    .chess-board td { width: 60px; height: 60px; text-align: center; vertical-align: middle; }
+    .light { background: #ffffff; }
+    .dark { background: #17ab8b; }
+    img { width: 50px; height: 50px; }
+  </style>
+</head>
+<body>
+  <table class="chess-board" border="1">
+    <tbody>
+      <tr>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chess_rdt45.svg/68px-Chess_rdt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Chess_ndt45.svg/68px-Chess_ndt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chess_bdt45.svg/68px-Chess_bdt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chess_qdt45.svg/68px-Chess_qdt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chess_qdt45.svg/68px-Chess_qdt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Chess_bdt45.svg/68px-Chess_bdt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Chess_ndt45.svg/68px-Chess_ndt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Chess_rdt45.svg/68px-Chess_rdt45.svg.png"></td>
+      </tr>
+      <tr>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg  .png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Chess_pdt45.svg/68px-Chess_pdt45.svg.png"></td>
+      </tr>
+      <tr>
+        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
+        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
+      </tr>
+      <tr>
+        <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
+        <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
+      </tr>
+      <tr>
+        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
+        <td class="light"></td><td class="dark"></td><td class="light"></td><td class="dark"></td>
+      </tr>
+      <tr>
+        <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
+        <td class="dark"></td><td class="light"></td><td class="dark"></td><td class="light"></td>
+      </tr>
+      <tr>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Chess_plt45.svg/68px-Chess_plt45.svg.png"></td>
+      </tr>
+      <tr>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Chess_rlt45.svg/68px-Chess_rlt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chess_nlt45.svg/68px-Chess_nlt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chess_blt45.svg/68px-Chess_blt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Chess_qdt45.svg/68px-Chess_qdt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Chess_klt45.svg/68px-Chess_klt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Chess_blt45.svg/68px-Chess_blt45.svg.png"></td>
+        <td class="dark"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Chess_nlt45.svg/68px-Chess_nlt45.svg.png"></td>
+        <td class="light"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Chess_rlt45.svg/68px-Chess_rlt45.svg.png"></td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
